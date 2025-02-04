@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.col {
+  perspective: 1000px;
+}
+
+.product-item {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.product-item:hover {
+  transform: rotateY(10deg) rotateX(10deg);
+}
+
+.product-img-holder {
+  overflow: hidden;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-img-holder:hover .product-img {
+  transform: scale(1.1);
+}
+
+.card-body {
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5rem 1rem;
+}
+
+.bg-gradient-light {
+  background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.rounded-pill {
+  border-radius: 50rem;
+}
+
+.text-dark {
+  color: #343a40 !important;
+}
+
+.border {
+  border: 1px solid #dee2e6 !important;
+}
