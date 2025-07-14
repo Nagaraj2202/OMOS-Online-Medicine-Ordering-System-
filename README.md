@@ -1,52 +1,43 @@
-# OMOS – Online Mental Ordering System 🧠💬
+# OMOS – Online Medicine Ordering System 💊🛒
 
-## Developed by: Naguri A (Nag's)
+## Developed by: Nagaraj A
 
-**OMOS** (Online Mental Ordering System) is a powerful and supportive mental wellness platform developed to help users track their emotional state, communicate with a chatbot for motivation, and gain insights into their mental health patterns. Built with Java Servlets, MySQL, and modern web technologies, this full-stack system prioritizes mental clarity through mood logging, real-time interaction, and user analytics.
+**OMOS (Online Medicine Ordering System)** is a full-stack web application designed to simplify the process of ordering medicines online. It enables users to register, log in, browse medicines, add items to a cart, and place orders. The admin can manage inventory, track orders, and upload new medicine details. This project aims to bring pharmacy services to users' fingertips with a responsive and reliable platform.
 
 ---
 
 ## 👨‍💻 About the Developer
 
-Hi, I’m **Nag’s**, a BCA graduate and tech enthusiast who believes in building applications that truly impact lives. I developed **OMOS** as a blend of my interests in AI, backend systems, and mental health awareness. It’s a complete, user-centric project designed for both academic and real-world relevance.
+Hi, I’m Nagaraj A, a BCA graduate and aspiring Java and web  developer with a passion for building smart, user-friendly software. OMOS is my initiative to create a real-world application that enhances digital healthcare and medicine delivery services.
 
 ---
 
-## 🌟 Key Features of OMOS
+## 🛍️ Key Features of OMOS
 
-- 🧠 **Motivational Chatbot** for daily emotional support
-- 📆 **Mood Tracker** to record daily emotional states
-- 📊 **Dashboard Analytics** with charts based on mood history
-- 🔐 **Secure Login & Registration** system (MySQL backed)
-- 💬 **Chat Logs & Mood Data** stored and analyzed
-- 🖥️ **Responsive UI** with intuitive and interactive design
+- 🧾 **User Registration & Login** system
+- 💊 **Browse and Search Medicines**
+- 🛒 **Add to Cart and Place Orders**
+- 📦 **Track Order History**
+- 🔐 **Admin Dashboard** to manage:
+  - Inventory (Add/Edit/Delete Medicines)
+  - Orders placed by users
+  - Customer details
+- 💬 **Contact/Support** section
+- 📱 **Fully Responsive Frontend Design**
 
 ---
 
-## 💻 Tech Stack Used
+## 🛠️ Tech Stack Used
 
 | Layer     | Technology                      |
 |-----------|----------------------------------|
 | Frontend  | HTML, CSS, JavaScript           |
-| Backend   | Java (Servlets), JDBC           |
-| Database  | MySQL (using XAMPP)             |
-| Tools     | Apache NetBeans, Scene Builder  |
+| Backend   | PHP                             |
+| Database  | MySQL (XAMPP)                   |
+| Tools     | VS code    |
+
 
 ---
 
-## 🔧 Project Setup Instructions
-
-### 🛠 Requirements
-
-- Java JDK 21+
-- NetBeans or Eclipse IDE
-- Apache Tomcat
-- MySQL with XAMPP
-- Modern web browser
-
-### ⚙️ Installation Steps
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/your-username/omos.git
+## 🗂️ Project Structure
 
